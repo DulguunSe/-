@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dadal</string>
+    <string name="about_line">Dadal %1$s · Your data stays on this phone.</string>
+    <string name="action_check_in">Check in</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_done">Done</string>
+    <string name="action_done_named">✓ %1$s</string>
+    <string name="action_snooze">Snooze 10 min</string>
+    <string name="add">Add</string>
+    <string name="add_note">Add note</string>
+    <string name="add_reminder_time">Add a time</string>
+    <string name="add_widget">Home screen widgets</string>
+    <string name="add_widget_desc">Long-press your home screen → Widgets → Dadal. Pick “Today” or the streak flame.</string>
+    <string name="alarm_keep_streak">Streak: %1$s. Don’t break it!</string>
+    <string name="alarm_quit_streak">Clean for %1$s. Stay strong!</string>
+    <string name="alarm_start_streak">Do it now and start a streak today.</string>
+    <string name="all">All</string>
+    <string name="archive">Archive</string>
+    <string name="archived_empty_text">Archive a habit to hide it without losing its history.</string>
+    <string name="archived_empty_title">Nothing archived</string>
+    <string name="archived_habits">Archived habits</string>
+    <string name="back">Back</string>
+    <string name="backup_failed">Couldn’t save the backup.</string>
+    <string name="backup_invalid">That file isn’t a Dadal backup.</string>
+    <string name="backup_saved">Backup saved.</string>
+    <string name="badge_100">Getting serious</string>
+    <string name="badge_100_desc">100 check-ins</string>
+    <string name="badge_1000">Habit machine</string>
+    <string name="badge_1000_desc">1,000 check-ins</string>
+    <string name="badge_century">Century</string>
+    <string name="badge_century_desc">100-day streak</string>
+    <string name="badge_collector">Collector</string>
+    <string name="badge_collector_desc">5 active habits</string>
+    <string name="badge_first_step">First step</string>
+    <string name="badge_first_step_desc">Your first check-in</string>
+    <string name="badge_journal">Reflective</string>
+    <string name="badge_journal_desc">Write 10 notes</string>
+    <string name="badge_month">Unstoppable</string>
+    <string name="badge_month_desc">30-day streak</string>
+    <string name="badge_perfect_day">Perfect day</string>
+    <string name="badge_perfect_day_desc">Finish everything in one day</string>
+    <string name="badge_perfect_week">Perfect week</string>
+    <string name="badge_perfect_week_desc">7 perfect days in a row</string>
+    <string name="badge_week">On fire</string>
+    <string name="badge_week_desc">7-day streak</string>
+    <string name="badge_year">Year of you</string>
+    <string name="badge_year_desc">365-day streak</string>
+    <string name="badges_unlocked">%1$d of %2$d unlocked</string>
+    <string name="best_streak_short">Best: %1$s</string>
+    <string name="build_habit">Build a habit</string>
+    <string name="build_habit_help">Mark each day you complete it.</string>
+    <string name="cancel">Cancel</string>
+    <string name="categories">Categories</string>
+    <string name="category_finances">Finances</string>
+    <string name="category_fitness">Fitness</string>
+    <string name="category_health">Health</string>
+    <string name="category_name_hint">e.g. Mind</string>
+    <string name="celebrate_perfect_text">Everything done today. Perfect-day streak: %1$d 🔥</string>
+    <string name="celebrate_perfect_title">Perfect day!</string>
+    <string name="celebrate_streak_text">%1$s: you’re on fire. Keep going!</string>
+    <string name="celebrate_streak_title">%1$s in a row!</string>
+    <string name="change_icon">Change icon</string>
+    <string name="channel_alarms">Alarm reminders</string>
+    <string name="channel_alarms_desc">Rings until you respond, like an alarm clock.</string>
+    <string name="channel_progress">Lock-screen streak</string>
+    <string name="channel_progress_desc">A quiet, pinned summary of today’s habits and your streak.</string>
+    <string name="channel_reminders">Reminders</string>
+    <string name="channel_reminders_desc">Habit reminders at the times you choose.</string>
+    <string name="channel_streak">Streak alerts</string>
+    <string name="channel_streak_desc">Evening alerts when a streak is about to break.</string>
+    <string name="chart_tap_hint">Tap a bar to see its value.</string>
+    <string name="chart_weekday">Completion by weekday · last 12 weeks</string>
+    <string name="chart_weekly">Check-ins per week</string>
+    <string name="choose_icon">Choose icon</string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="color">Color</string>
+    <string name="daily_goal">Daily goal</string>
+    <string name="daily_limit">Daily limit</string>
+    <string name="danger_alerts">Streak-in-danger alerts</string>
+    <string name="danger_alerts_desc">An evening nudge, only when a streak is about to break.</string>
+    <string name="danger_last_chance_text">Less than 2 hours left today.</string>
+    <string name="danger_last_chance_title">⏰ Last chance! Save your %2$s streak (%1$s)</string>
+    <string name="danger_text">Do it now. It only takes a few minutes.</string>
+    <string name="danger_time">Alert time</string>
+    <string name="danger_title">🔥 Your %2$s streak (%1$s) ends at midnight</string>
+    <string name="data">Data</string>
+    <string name="day_month">%2$s %1$d</string>
+    <string name="delete">Delete</string>
+    <string name="delete_category_text">“%1$s” will be removed from all habits. The habits stay.</string>
+    <string name="delete_category_title">Delete category?</string>
+    <string name="delete_habit_text">“%1$s” and its whole history will be deleted. This can’t be undone. Archive it instead to keep the history.</string>
+    <string name="delete_habit_title">Delete habit?</string>
+    <string name="description">Description</string>
+    <string name="description_hint">Why does it matter?</string>
+    <string name="done">Done</string>
+    <string name="edit">Edit</string>
+    <string name="edit_category">Edit category</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="empty_action">Create a habit</string>
+    <string name="empty_filtered_text">Try another category, or turn off “Hide completed today”.</string>
+    <string name="empty_filtered_title">All clear here</string>
+    <string name="empty_text">Small daily wins add up. Start with one habit you really care about.</string>
+    <string name="empty_title">No habits yet</string>
+    <string name="every_n_explain">Your streak counts how many times in a row you did it within the gap you chose.</string>
+    <string name="export_backup">Export backup</string>
+    <string name="export_backup_desc">Save all habits, check-ins and notes to a file</string>
+    <string name="favorite">Favorite</string>
+    <string name="free_day_note">Did it on a free day anyway? It shows on the grid and counts in your total.</string>
+    <string name="free_day_reminders">Reminders stay quiet on the other days, on their own.</string>
+    <string name="full_screen_needed">Allow full-screen alarms so this can show on your lock screen.</string>
+    <string name="general">General</string>
+    <string name="goal_and_streak">Goal &amp; Streak</string>
+    <string name="goal_value">Goal: %1$s %2$s</string>
+    <string name="habit_type">Habit type</string>
+    <string name="habits">Habits</string>
+    <string name="hide_done">Hide completed today</string>
+    <string name="hold_for_note">Press and hold a day to add a note</string>
+    <string name="how_it_counts">How it counts</string>
+    <string name="import_backup">Import backup</string>
+    <string name="import_backup_desc">Restore from a backup file</string>
+    <string name="import_confirm_text">This replaces everything in the app with the backup. Your current habits will be lost.</string>
+    <string name="import_confirm_title">Replace all data?</string>
+    <string name="import_replace">Replace</string>
+    <string name="insight_best_day">%1$s is your strongest day (%2$d%%).</string>
+    <string name="insight_longest">Longest running streak: %1$s, %2$s.</string>
+    <string name="insight_most_consistent">Most consistent: %1$s at %2$d%%.</string>
+    <string name="insight_perfect_best">Best perfect-day run: %1$d days (%2$d perfect days in total).</string>
+    <string name="insight_worst_day">%1$s is the hardest day (%2$d%%). A reminder could help.</string>
+    <string name="insights">Insights</string>
+    <string name="language">Language</string>
+    <string name="language_system">System default</string>
+    <string name="last_5_days">Last 5 days</string>
+    <string name="last_chance">Last-chance alert</string>
+    <string name="last_chance_desc">One more nudge at %1$s if a streak is still at risk.</string>
+    <string name="limit_value">Limit: %1$s %2$s</string>
+    <string name="lock_screen_streak">Streak on lock screen</string>
+    <string name="lock_screen_streak_desc">A quiet pinned notification with today’s progress and your streak, like Duolingo.</string>
+    <string name="lock_screen_widgets">Lock screen &amp; widgets</string>
+    <string name="manage_categories">Categories</string>
+    <string name="month_year">%1$s %2$d</string>
+    <string name="month_year_short">%1$s %2$d</string>
+    <string name="more">More</string>
+    <string name="name">Name</string>
+    <string name="name_hint">e.g. Read 10 pages</string>
+    <string name="new_category">New category</string>
+    <string name="new_habit">New Habit</string>
+    <string name="next_milestone">%1$d to go until %2$d</string>
+    <string name="no_notes">No notes yet</string>
+    <string name="no_reminders">No reminders</string>
+    <string name="none">None</string>
+    <string name="notes">Notes</string>
+    <string name="notes_placeholder">What went well? What got in the way?</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="open_app">Open app</string>
+    <string name="pause_1_month">1 month</string>
+    <string name="pause_1_week">1 week</string>
+    <string name="pause_2_weeks">2 weeks</string>
+    <string name="pause_3_days">3 days</string>
+    <string name="pause_for">Pause for…</string>
+    <string name="pause_habit">Pause (vacation)</string>
+    <string name="pause_until_resume">Until I resume</string>
+    <string name="paused">Paused</string>
+    <string name="paused_indefinitely">Paused. Paused days never break your streak.</string>
+    <string name="paused_until">Paused until %1$s. Paused days never break your streak.</string>
+    <string name="pending_text">A few minutes now keeps your day on track.</string>
+    <string name="perm_autostart">Xiaomi: allow Autostart</string>
+    <string name="perm_autostart_desc">Xiaomi phones block alarms from apps that can’t autostart. Turn it on for Dadal.</string>
+    <string name="perm_battery">No battery restrictions</string>
+    <string name="perm_exact">Exact alarms</string>
+    <string name="perm_full_screen">Full-screen alarms</string>
+    <string name="perm_notifications">Notifications</string>
+    <string name="preset_weekdays">Weekdays</string>
+    <string name="preset_weekends">Weekends</string>
+    <string name="progress_all_done">All done today 🎉</string>
+    <string name="progress_nothing_due">Nothing due today</string>
+    <string name="progress_streak">🔥 Streak: %1$d</string>
+    <string name="progress_title">%1$d of %2$d done today</string>
+    <string name="quick_title">Today</string>
+    <string name="quit_habit">Quit a habit</string>
+    <string name="quit_habit_help">Completed by default: only mark the days you slipped. Your streak counts consecutive slip-free days.</string>
+    <string name="reliability">Reminder reliability</string>
+    <string name="reliability_desc">For alarms to ring on time, every item here should be green.</string>
+    <string name="reminder">Reminder</string>
+    <string name="reminder_default">Time for your habit</string>
+    <string name="reminder_keep_streak">🔥 Streak: %1$s. Keep it going!</string>
+    <string name="reminder_progress">So far: %1$s / %2$s %3$s</string>
+    <string name="reminder_quit">Stay strong today.</string>
+    <string name="reminder_quit_streak">Clean for %1$s. Stay strong!</string>
+    <string name="reminder_smart_note">Reminders stay quiet when the habit is already done, paused, or not needed today.</string>
+    <string name="reminder_style">Style</string>
+    <string name="reminder_times">Times</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_every_day">Every day</string>
+    <string name="repeat_every_few">Every few days</string>
+    <string name="repeat_specific_days">On specific days</string>
+    <string name="repeat_times_month">Times a month</string>
+    <string name="repeat_times_week">Times a week</string>
+    <string name="restore">Restore</string>
+    <string name="resume">Resume</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_default">Default order</string>
+    <string name="sort_filter">Sort and filter</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_streak">Current streak</string>
+    <string name="specific_days_explain">Your streak counts the days you picked, in a row. The other days are free: they never break it and never lower your consistency.</string>
+    <string name="stat_avg_consistency">Avg consistency</string>
+    <string name="stat_best">Best streak</string>
+    <string name="stat_checkins">Check-ins</string>
+    <string name="stat_consistency">Consistency</string>
+    <string name="stat_perfect_streak">Perfect-day streak</string>
+    <string name="stat_today">Today</string>
+    <string name="stat_total">Total</string>
+    <string name="statistics">Statistics</string>
+    <string name="stats_empty_text">Create a habit and check in for a few days to see your patterns.</string>
+    <string name="stats_empty_title">No data yet</string>
+    <string name="status_fix">Tap to fix</string>
+    <string name="status_ok">All good</string>
+    <string name="streak_milestones">Streak milestones</string>
+    <string name="streak_protection">Streak protection</string>
+    <string name="style_alarm">Alarm</string>
+    <string name="style_alarm_desc">Rings and shows on the lock screen until you respond.</string>
+    <string name="style_notification">Notification</string>
+    <string name="style_notification_desc">A regular notification with Done and Snooze buttons.</string>
+    <string name="tile_label">Habits</string>
+    <string name="tile_progress">%1$d/%2$d today · 🔥 %3$d</string>
+    <string name="times_month_explain">Your streak counts the months in a row in which you reach this goal.</string>
+    <string name="times_week_explain">Your streak counts the weeks in a row in which you reach this goal. Any days of the week count.</string>
+    <string name="today">Today</string>
+    <string name="track_count">Count</string>
+    <string name="track_help_count">Reach a daily number, like 8 glasses of water.</string>
+    <string name="track_help_measure">Reach a daily amount, like 5 km or 30 min.</string>
+    <string name="track_help_quit_count">Stay at or under a daily limit, like 3 coffees.</string>
+    <string name="track_help_quit_measure">Stay at or under a daily amount, like 60 min of social media.</string>
+    <string name="track_help_quit_yes_no">A day counts as clean unless you log a slip.</string>
+    <string name="track_help_yes_no">One tap marks the day as done.</string>
+    <string name="track_measure">Measure</string>
+    <string name="track_yes_no">Yes / No</string>
+    <string name="tracking">Tracking</string>
+    <string name="trophies">Trophies</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="unit">Unit</string>
+    <string name="unit_hint_count">glasses</string>
+    <string name="unit_hint_measure">min</string>
+    <string name="view_cards">Cards</string>
+    <string name="view_month">Month</string>
+    <string name="view_week">Last days</string>
+    <string name="which_days">Which days</string>
+    <string name="widget_done">All done!</string>
+    <string name="widget_nothing">Nothing due today 🎉</string>
+    <string name="widget_streak_label">day streak</string>
+    <string name="widget_today_desc">Today’s habits with check buttons</string>
+    <string name="widget_streak_desc">Your streak flame, lit when today is done</string>
+    <string name="widget_today_name">Today</string>
+    <string name="widget_streak_name">Streak</string>
+    <plurals name="days_count">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="weeks_count">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="months_count">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="times_count">
+        <item quantity="one">%d time</item>
+        <item quantity="other">%d times</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="one">Every %d day</item>
+        <item quantity="other">Every %d days</item>
+    </plurals>
+    <plurals name="times_a_week">
+        <item quantity="one">%d time a week</item>
+        <item quantity="other">%d times a week</item>
+    </plurals>
+    <plurals name="times_a_month">
+        <item quantity="one">%d time a month</item>
+        <item quantity="other">%d times a month</item>
+    </plurals>
+    <plurals name="habits_count">
+        <item quantity="one">%d habit</item>
+        <item quantity="other">%d habits</item>
+    </plurals>
+    <plurals name="pending_title">
+        <item quantity="one">%d habit left for today</item>
+        <item quantity="other">%d habits left for today</item>
+    </plurals>
+    <plurals name="backup_restored">
+        <item quantity="one">Restored %d habit</item>
+        <item quantity="other">Restored %d habits</item>
+    </plurals>
+    <plurals name="widget_left">
+        <item quantity="one">%d left today</item>
+        <item quantity="other">%d left today</item>
+    </plurals>
+    <plurals name="danger_text_more">
+        <item quantity="one">%d more habit is waiting too.</item>
+        <item quantity="other">%d more habits are waiting too.</item>
+    </plurals>
+    <string-array name="months_full">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="months_compact">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="weekdays_full">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="weekdays_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="weekdays_two">
+        <item>Mo</item>
+        <item>Tu</item>
+        <item>We</item>
+        <item>Th</item>
+        <item>Fr</item>
+        <item>Sa</item>
+        <item>Su</item>
+    </string-array>
+    <string-array name="weekdays_letter">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+</resources>

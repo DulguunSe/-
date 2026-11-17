@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Дадал</string>
+    <string name="about_line">Дадал %1$s · Таны мэдээлэл зөвхөн энэ утсанд хадгалагдана.</string>
+    <string name="action_check_in">Тэмдэглэх</string>
+    <string name="action_dismiss">Хаах</string>
+    <string name="action_done">Хийсэн</string>
+    <string name="action_done_named">✓ %1$s</string>
+    <string name="action_snooze">10 минут хойшлуулах</string>
+    <string name="add">Нэмэх</string>
+    <string name="add_note">Тэмдэглэл нэмэх</string>
+    <string name="add_reminder_time">Цаг нэмэх</string>
+    <string name="add_widget">Нүүр дэлгэцийн виджет</string>
+    <string name="add_widget_desc">Нүүр дэлгэц дээр удаан дараад → Виджет → Дадал. “Өнөөдөр” эсвэл цувралын галыг сонгоно уу.</string>
+    <string name="alarm_keep_streak">Цуврал: %1$s. Бүү тасал!</string>
+    <string name="alarm_quit_streak">%1$s цэвэр. Тэвчээртэй байгаарай!</string>
+    <string name="alarm_start_streak">Одоо хийгээд өнөөдрөөс цуврал эхлүүлээрэй.</string>
+    <string name="all">Бүгд</string>
+    <string name="archive">Архивлах</string>
+    <string name="archived_empty_text">Түүхийг нь алдалгүй нуухын тулд дадлаа архивлаарай.</string>
+    <string name="archived_empty_title">Архив хоосон</string>
+    <string name="archived_habits">Архивласан дадлууд</string>
+    <string name="back">Буцах</string>
+    <string name="backup_failed">Нөөцлөлтийг хадгалж чадсангүй.</string>
+    <string name="backup_invalid">Энэ файл Дадалын нөөцлөлт биш байна.</string>
+    <string name="backup_saved">Нөөцлөлт хадгалагдлаа.</string>
+    <string name="badge_100">Нухацтай</string>
+    <string name="badge_100_desc">100 удаа тэмдэглэсэн</string>
+    <string name="badge_1000">Дадлын машин</string>
+    <string name="badge_1000_desc">1000 удаа тэмдэглэсэн</string>
+    <string name="badge_century">Зуут</string>
+    <string name="badge_century_desc">100 өдрийн цуврал</string>
+    <string name="badge_collector">Цуглуулагч</string>
+    <string name="badge_collector_desc">5 идэвхтэй дадал</string>
+    <string name="badge_first_step">Эхний алхам</string>
+    <string name="badge_first_step_desc">Анхны тэмдэглэгээ</string>
+    <string name="badge_journal">Эргэцүүлэгч</string>
+    <string name="badge_journal_desc">10 тэмдэглэл бичих</string>
+    <string name="badge_month">Зогсолтгүй</string>
+    <string name="badge_month_desc">30 өдрийн цуврал</string>
+    <string name="badge_perfect_day">Төгс өдөр</string>
+    <string name="badge_perfect_day_desc">Нэг өдөр бүгдийг нь хийх</string>
+    <string name="badge_perfect_week">Төгс долоо хоног</string>
+    <string name="badge_perfect_week_desc">Дараалсан 7 төгс өдөр</string>
+    <string name="badge_week">Галтай</string>
+    <string name="badge_week_desc">7 өдрийн цуврал</string>
+    <string name="badge_year">Өөрийн жил</string>
+    <string name="badge_year_desc">365 өдрийн цуврал</string>
+    <string name="badges_unlocked">%2$d-оос %1$d нээгдсэн</string>
+    <string name="best_streak_short">Шилдэг: %1$s</string>
+    <string name="build_habit">Дадал бий болгох</string>
+    <string name="build_habit_help">Хийсэн өдөр бүрээ тэмдэглээрэй.</string>
+    <string name="cancel">Болих</string>
+    <string name="categories">Ангилал</string>
+    <string name="category_finances">Санхүү</string>
+    <string name="category_fitness">Фитнесс</string>
+    <string name="category_health">Эрүүл мэнд</string>
+    <string name="category_name_hint">ж.нь: Оюун ухаан</string>
+    <string name="celebrate_perfect_text">Өнөөдөр бүгдийг хийлээ. Төгс өдрийн цуврал: %1$d 🔥</string>
+    <string name="celebrate_perfect_title">Төгс өдөр!</string>
+    <string name="celebrate_streak_text">%1$s: чи гал шиг байна. Үргэлжлүүл!</string>
+    <string name="celebrate_streak_title">Дараалан %1$s!</string>
+    <string name="change_icon">Дүрс солих</string>
+    <string name="channel_alarms">Сэрүүлэг сануулга</string>
+    <string name="channel_alarms_desc">Хариу өгөх хүртэл сэрүүлэг шиг дуугарна.</string>
+    <string name="channel_progress">Түгжээтэй дэлгэцийн цуврал</string>
+    <string name="channel_progress_desc">Өнөөдрийн дадал болон цувралын чимээгүй, бэхлэгдсэн хураангуй.</string>
+    <string name="channel_reminders">Сануулга</string>
+    <string name="channel_reminders_desc">Таны сонгосон цагт дадлын сануулга.</string>
+    <string name="channel_streak">Цувралын анхааруулга</string>
+    <string name="channel_streak_desc">Цуврал тасрах гэж байхад оройн анхааруулга.</string>
+    <string name="chart_tap_hint">Утгыг харахын тулд багана дээр дарна уу.</string>
+    <string name="chart_weekday">Гарагаар биелэлт · сүүлийн 12 долоо хоног</string>
+    <string name="chart_weekly">Долоо хоног бүрийн тэмдэглэгээ</string>
+    <string name="choose_icon">Дүрс сонгох</string>
+    <string name="clear">Арилгах</string>
+    <string name="close">Хаах</string>
+    <string name="color">Өнгө</string>
+    <string name="daily_goal">Өдрийн зорилго</string>
+    <string name="daily_limit">Өдрийн хязгаар</string>
+    <string name="danger_alerts">Цуврал аюулд орох анхааруулга</string>
+    <string name="danger_alerts_desc">Цуврал тасрах гэж байхад л оройн сануулга ирнэ.</string>
+    <string name="danger_last_chance_text">Өнөөдөр 2 цаг хүрэхгүй хугацаа үлдлээ.</string>
+    <string name="danger_last_chance_title">⏰ Сүүлийн боломж! %2$s цувралаа авраарай (%1$s)</string>
+    <string name="danger_text">Одоо хий. Хэдхэн минут л болно.</string>
+    <string name="danger_time">Анхааруулах цаг</string>
+    <string name="danger_title">🔥 %2$s цуврал (%1$s) шөнө дунд тасарна</string>
+    <string name="data">Мэдээлэл</string>
+    <string name="day_month">%2$sын %1$d</string>
+    <string name="delete">Устгах</string>
+    <string name="delete_category_text">“%1$s” бүх дадлаас хасагдана. Дадлууд хэвээр үлдэнэ.</string>
+    <string name="delete_category_title">Ангиллыг устгах уу?</string>
+    <string name="delete_habit_text">“%1$s” болон бүх түүх нь устана. Буцаах боломжгүй. Түүхийг хадгалахыг хүсвэл архивлаарай.</string>
+    <string name="delete_habit_title">Дадлыг устгах уу?</string>
+    <string name="description">Тайлбар</string>
+    <string name="description_hint">Яагаад чухал вэ?</string>
+    <string name="done">Болсон</string>
+    <string name="edit">Засах</string>
+    <string name="edit_category">Ангилал засах</string>
+    <string name="edit_habit">Дадал засах</string>
+    <string name="empty_action">Дадал үүсгэх</string>
+    <string name="empty_filtered_text">Өөр ангилал сонгох эсвэл “Өнөөдөр хийснийг нуух”-ыг унтраана уу.</string>
+    <string name="empty_filtered_title">Энд бүгд хийгдсэн</string>
+    <string name="empty_text">Өдөр бүрийн жижиг ялалтууд нэмэгдсээр томорно. Өөрт чинь үнэхээр чухал нэг дадлаас эхлээрэй.</string>
+    <string name="empty_title">Дадал алга байна</string>
+    <string name="every_n_explain">Сонгосон завсартаа багтааж хэдэн удаа дараалан хийснийг цуврал тоолно.</string>
+    <string name="export_backup">Нөөцлөлт гаргах</string>
+    <string name="export_backup_desc">Бүх дадал, тэмдэглэгээ, тэмдэглэлийг файлд хадгална</string>
+    <string name="favorite">Дуртай</string>
+    <string name="free_day_note">Чөлөөт өдөр хийсэн үү? Хүснэгтэд харагдаж, нийт тоонд орно.</string>
+    <string name="free_day_reminders">Бусад өдөр сануулга өөрөө чимээгүй байна.</string>
+    <string name="full_screen_needed">Түгжээтэй дэлгэц дээр харагдахын тулд бүтэн дэлгэцийн сэрүүлгийг зөвшөөрнө үү.</string>
+    <string name="general">Ерөнхий</string>
+    <string name="goal_and_streak">Зорилго ба цуврал</string>
+    <string name="goal_value">Зорилго: %1$s %2$s</string>
+    <string name="habit_type">Дадлын төрөл</string>
+    <string name="habits">Дадлууд</string>
+    <string name="hide_done">Өнөөдөр хийснийг нуух</string>
+    <string name="hold_for_note">Тэмдэглэл нэмэхийн тулд өдөр дээр удаан дарна уу</string>
+    <string name="how_it_counts">Хэрхэн тоолох вэ</string>
+    <string name="import_backup">Нөөцлөлт сэргээх</string>
+    <string name="import_backup_desc">Нөөцлөлтийн файлаас сэргээнэ</string>
+    <string name="import_confirm_text">Апп дахь бүх зүйлийг нөөцлөлтөөр солино. Одоогийн дадлууд устна.</string>
+    <string name="import_confirm_title">Бүх мэдээллийг солих уу?</string>
+    <string name="import_replace">Солих</string>
+    <string name="insight_best_day">%1$s таны хамгийн сайн өдөр (%2$d%%).</string>
+    <string name="insight_longest">Хамгийн урт цуврал: %1$s, %2$s.</string>
+    <string name="insight_most_consistent">Хамгийн тогтвортой: %1$s, %2$d%%.</string>
+    <string name="insight_perfect_best">Хамгийн урт төгс цуврал: %1$d өдөр (нийт %2$d төгс өдөр).</string>
+    <string name="insight_worst_day">%1$s хамгийн хэцүү өдөр (%2$d%%). Сануулга тусалж магадгүй.</string>
+    <string name="insights">Дүгнэлт</string>
+    <string name="language">Хэл</string>
+    <string name="language_system">Системийн хэл</string>
+    <string name="last_5_days">Сүүлийн 5 өдөр</string>
+    <string name="last_chance">Сүүлийн боломжийн анхааруулга</string>
+    <string name="last_chance_desc">Цуврал аюулд хэвээр байвал %1$s-д дахин сануулна.</string>
+    <string name="limit_value">Хязгаар: %1$s %2$s</string>
+    <string name="lock_screen_streak">Түгжээтэй дэлгэц дээр цуврал</string>
+    <string name="lock_screen_streak_desc">Өнөөдрийн явц, цувралыг харуулах чимээгүй бэхлэгдсэн мэдэгдэл (Duolingo шиг).</string>
+    <string name="lock_screen_widgets">Түгжээтэй дэлгэц ба виджет</string>
+    <string name="manage_categories">Ангилал</string>
+    <string name="month_year">%2$d оны %1$s</string>
+    <string name="month_year_short">%2$d.%1$s</string>
+    <string name="more">Бусад</string>
+    <string name="name">Нэр</string>
+    <string name="name_hint">ж.нь: 10 хуудас унших</string>
+    <string name="new_category">Шинэ ангилал</string>
+    <string name="new_habit">Шинэ дадал</string>
+    <string name="next_milestone">%2$d хүртэл %1$d үлдлээ</string>
+    <string name="no_notes">Тэмдэглэл алга</string>
+    <string name="no_reminders">Сануулгагүй</string>
+    <string name="none">Байхгүй</string>
+    <string name="notes">Тэмдэглэл</string>
+    <string name="notes_placeholder">Юу сайн болсон бэ? Юу саад болсон бэ?</string>
+    <string name="ok">OK</string>
+    <string name="open_app">Апп нээх</string>
+    <string name="pause_1_month">1 сар</string>
+    <string name="pause_1_week">1 долоо хоног</string>
+    <string name="pause_2_weeks">2 долоо хоног</string>
+    <string name="pause_3_days">3 өдөр</string>
+    <string name="pause_for">Хэр удаан түр зогсоох вэ?</string>
+    <string name="pause_habit">Түр зогсоох (амралт)</string>
+    <string name="pause_until_resume">Үргэлжлүүлэх хүртэл</string>
+    <string name="paused">Түр зогссон</string>
+    <string name="paused_indefinitely">Түр зогссон. Зогссон өдрүүд цувралыг тасалдаггүй.</string>
+    <string name="paused_until">%1$s хүртэл түр зогссон. Зогссон өдрүүд цувралыг тасалдаггүй.</string>
+    <string name="pending_text">Одоо хэдэн минут зарцуулбал өдөр чинь замдаа орно.</string>
+    <string name="perm_autostart">Xiaomi: Автоматаар эхлэхийг зөвшөөрөх</string>
+    <string name="perm_autostart_desc">Xiaomi утас автоматаар эхэлж чадахгүй аппын сэрүүлгийг хаадаг. Дадалд үүнийг асаана уу.</string>
+    <string name="perm_battery">Батарейн хязгаарлалтгүй</string>
+    <string name="perm_exact">Яг цагтаа сэрүүлэг</string>
+    <string name="perm_full_screen">Бүтэн дэлгэцийн сэрүүлэг</string>
+    <string name="perm_notifications">Мэдэгдэл</string>
+    <string name="preset_weekdays">Ажлын өдөр</string>
+    <string name="preset_weekends">Амралтын өдөр</string>
+    <string name="progress_all_done">Өнөөдөр бүгд хийгдлээ 🎉</string>
+    <string name="progress_nothing_due">Өнөөдөр хийх зүйл алга</string>
+    <string name="progress_streak">🔥 Цуврал: %1$d</string>
+    <string name="progress_title">Өнөөдөр %2$d-оос %1$d хийгдсэн</string>
+    <string name="quick_title">Өнөөдөр</string>
+    <string name="quit_habit">Дадлаас салах</string>
+    <string name="quit_habit_help">Анхдагчаар биелсэн гэж тооцно: зөвхөн алдсан өдрөө тэмдэглээрэй. Цуврал нь алдаагүй дараалсан өдрүүдийг тоолно.</string>
+    <string name="reliability">Сануулгын найдвартай байдал</string>
+    <string name="reliability_desc">Сэрүүлэг цагтаа дуугарахын тулд энд байгаа бүх зүйл ногоон байх ёстой.</string>
+    <string name="reminder">Сануулга</string>
+    <string name="reminder_default">Дадлынхаа цаг боллоо</string>
+    <string name="reminder_keep_streak">🔥 Цуврал: %1$s. Үргэлжлүүл!</string>
+    <string name="reminder_progress">Одоогоор: %1$s / %2$s %3$s</string>
+    <string name="reminder_quit">Өнөөдөр тэвчээртэй байгаарай.</string>
+    <string name="reminder_quit_streak">%1$s цэвэр. Тэвчээртэй байгаарай!</string>
+    <string name="reminder_smart_note">Дадал аль хэдийн хийгдсэн, түр зогссон эсвэл өнөөдөр шаардлагагүй бол сануулга чимээгүй байна.</string>
+    <string name="reminder_style">Хэлбэр</string>
+    <string name="reminder_times">Цагууд</string>
+    <string name="repeat">Давтамж</string>
+    <string name="repeat_every_day">Өдөр бүр</string>
+    <string name="repeat_every_few">Хэдэн өдөр тутам</string>
+    <string name="repeat_specific_days">Тодорхой өдрүүдэд</string>
+    <string name="repeat_times_month">Сард хэдэн удаа</string>
+    <string name="repeat_times_week">Долоо хоногт хэдэн удаа</string>
+    <string name="restore">Сэргээх</string>
+    <string name="resume">Үргэлжлүүлэх</string>
+    <string name="save">Хадгалах</string>
+    <string name="settings">Тохиргоо</string>
+    <string name="sort_by">Эрэмбэлэх</string>
+    <string name="sort_default">Анхдагч дараалал</string>
+    <string name="sort_filter">Эрэмбэлэх ба шүүх</string>
+    <string name="sort_name">Нэр</string>
+    <string name="sort_streak">Одоогийн цуврал</string>
+    <string name="specific_days_explain">Цуврал нь таны сонгосон өдрүүдийг дараалан тоолно. Бусад өдрүүд чөлөөтэй: цувралыг тасалдаггүй, тогтвортой байдлыг бууруулдаггүй.</string>
+    <string name="stat_avg_consistency">Дундаж тогтвортой байдал</string>
+    <string name="stat_best">Шилдэг цуврал</string>
+    <string name="stat_checkins">Тэмдэглэгээ</string>
+    <string name="stat_consistency">Тогтвортой байдал</string>
+    <string name="stat_perfect_streak">Төгс өдрийн цуврал</string>
+    <string name="stat_today">Өнөөдөр</string>
+    <string name="stat_total">Нийт</string>
+    <string name="statistics">Статистик</string>
+    <string name="stats_empty_text">Дадал үүсгээд хэдэн өдөр тэмдэглэвэл таны хэв маяг харагдана.</string>
+    <string name="stats_empty_title">Мэдээлэл алга</string>
+    <string name="status_fix">Засахын тулд дарна уу</string>
+    <string name="status_ok">Бүх зүйл хэвийн</string>
+    <string name="streak_milestones">Цувралын амжилтууд</string>
+    <string name="streak_protection">Цуврал хамгаалалт</string>
+    <string name="style_alarm">Сэрүүлэг</string>
+    <string name="style_alarm_desc">Хариу өгөх хүртэл дуугарч, түгжээтэй дэлгэц дээр гарна.</string>
+    <string name="style_notification">Мэдэгдэл</string>
+    <string name="style_notification_desc">“Хийсэн”, “Хойшлуулах” товчтой энгийн мэдэгдэл.</string>
+    <string name="tile_label">Дадал</string>
+    <string name="tile_progress">Өнөөдөр %1$d/%2$d · 🔥 %3$d</string>
+    <string name="times_month_explain">Цуврал нь энэ зорилгод хүрсэн дараалсан саруудыг тоолно.</string>
+    <string name="times_week_explain">Цуврал нь энэ зорилгод хүрсэн дараалсан долоо хоногуудыг тоолно. Долоо хоногийн аль ч өдөр тооцогдоно.</string>
+    <string name="today">Өнөөдөр</string>
+    <string name="track_count">Тоо</string>
+    <string name="track_help_count">Өдрийн тоонд хүрэх, ж.нь: 8 аяга ус.</string>
+    <string name="track_help_measure">Өдрийн хэмжээнд хүрэх, ж.нь: 5 км эсвэл 30 мин.</string>
+    <string name="track_help_quit_count">Өдрийн хязгаараас хэтрүүлэхгүй, ж.нь: 3 кофе.</string>
+    <string name="track_help_quit_measure">Өдрийн хэмжээнээс хэтрүүлэхгүй, ж.нь: сошиал медиа 60 мин.</string>
+    <string name="track_help_quit_yes_no">Алдаа тэмдэглэхгүй бол өдөр цэвэр гэж тооцогдоно.</string>
+    <string name="track_help_yes_no">Нэг дарахад өдөр хийгдсэн гэж тэмдэглэгдэнэ.</string>
+    <string name="track_measure">Хэмжээ</string>
+    <string name="track_yes_no">Тийм / Үгүй</string>
+    <string name="tracking">Хянах арга</string>
+    <string name="trophies">Шагнал</string>
+    <string name="unarchive">Архиваас гаргах</string>
+    <string name="unit">Нэгж</string>
+    <string name="unit_hint_count">аяга</string>
+    <string name="unit_hint_measure">мин</string>
+    <string name="view_cards">Карт</string>
+    <string name="view_month">Сар</string>
+    <string name="view_week">Сүүлийн өдрүүд</string>
+    <string name="which_days">Аль өдрүүд</string>
+    <string name="widget_done">Бүгд хийгдлээ!</string>
+    <string name="widget_nothing">Өнөөдөр хийх зүйл алга 🎉</string>
+    <string name="widget_streak_label">өдрийн цуврал</string>
+    <string name="widget_today_desc">Өнөөдрийн дадлууд, тэмдэглэх товчтой</string>
+    <string name="widget_streak_desc">Таны цувралын гал, өнөөдрийг дуусгахад асна</string>
+    <string name="widget_today_name">Өнөөдөр</string>
+    <string name="widget_streak_name">Цуврал</string>
+    <plurals name="days_count">
+        <item quantity="one">%d өдөр</item>
+        <item quantity="other">%d өдөр</item>
+    </plurals>
+    <plurals name="weeks_count">
+        <item quantity="one">%d долоо хоног</item>
+        <item quantity="other">%d долоо хоног</item>
+    </plurals>
+    <plurals name="months_count">
+        <item quantity="one">%d сар</item>
+        <item quantity="other">%d сар</item>
+    </plurals>
+    <plurals name="times_count">
+        <item quantity="one">%d удаа</item>
+        <item quantity="other">%d удаа</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="one">%d өдөр тутам</item>
+        <item quantity="other">%d өдөр тутам</item>
+    </plurals>
+    <plurals name="times_a_week">
+        <item quantity="one">Долоо хоногт %d удаа</item>
+        <item quantity="other">Долоо хоногт %d удаа</item>
+    </plurals>
+    <plurals name="times_a_month">
+        <item quantity="one">Сард %d удаа</item>
+        <item quantity="other">Сард %d удаа</item>
+    </plurals>
+    <plurals name="habits_count">
+        <item quantity="one">%d дадал</item>
+        <item quantity="other">%d дадал</item>
+    </plurals>
+    <plurals name="pending_title">
+        <item quantity="one">Өнөөдөр %d дадал үлдлээ</item>
+        <item quantity="other">Өнөөдөр %d дадал үлдлээ</item>
+    </plurals>
+    <plurals name="backup_restored">
+        <item quantity="one">%d дадал сэргээгдлээ</item>
+        <item quantity="other">%d дадал сэргээгдлээ</item>
+    </plurals>
+    <plurals name="widget_left">
+        <item quantity="one">Өнөөдөр %d үлдсэн</item>
+        <item quantity="other">Өнөөдөр %d үлдсэн</item>
+    </plurals>
+    <plurals name="danger_text_more">
+        <item quantity="one">Бас %d дадал хүлээж байна.</item>
+        <item quantity="other">Бас %d дадал хүлээж байна.</item>
+    </plurals>
+    <string-array name="months_full">
+        <item>1-р сар</item>
+        <item>2-р сар</item>
+        <item>3-р сар</item>
+        <item>4-р сар</item>
+        <item>5-р сар</item>
+        <item>6-р сар</item>
+        <item>7-р сар</item>
+        <item>8-р сар</item>
+        <item>9-р сар</item>
+        <item>10-р сар</item>
+        <item>11-р сар</item>
+        <item>12-р сар</item>
+    </string-array>
+    <string-array name="months_short">
+        <item>1-р сар</item>
+        <item>2-р сар</item>
+        <item>3-р сар</item>
+        <item>4-р сар</item>
+        <item>5-р сар</item>
+        <item>6-р сар</item>
+        <item>7-р сар</item>
+        <item>8-р сар</item>
+        <item>9-р сар</item>
+        <item>10-р сар</item>
+        <item>11-р сар</item>
+        <item>12-р сар</item>
+    </string-array>
+    <string-array name="months_compact">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="weekdays_full">
+        <item>Даваа</item>
+        <item>Мягмар</item>
+        <item>Лхагва</item>
+        <item>Пүрэв</item>
+        <item>Баасан</item>
+        <item>Бямба</item>
+        <item>Ням</item>
+    </string-array>
+    <string-array name="weekdays_short">
+        <item>Да</item>
+        <item>Мя</item>
+        <item>Лх</item>
+        <item>Пү</item>
+        <item>Ба</item>
+        <item>Бя</item>
+        <item>Ня</item>
+    </string-array>
+    <string-array name="weekdays_two">
+        <item>Да</item>
+        <item>Мя</item>
+        <item>Лх</item>
+        <item>Пү</item>
+        <item>Ба</item>
+        <item>Бя</item>
+        <item>Ня</item>
+    </string-array>
+    <string-array name="weekdays_letter">
+        <item>Да</item>
+        <item>Мя</item>
+        <item>Лх</item>
+        <item>Пү</item>
+        <item>Ба</item>
+        <item>Бя</item>
+        <item>Ня</item>
+    </string-array>
+</resources>
